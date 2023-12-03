@@ -6,6 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 document.addEventListener("keydown", (e) => {
+    e.preventDefault();
     if (e.key === 'Enter') {
         userInput();
         gameLoop();
