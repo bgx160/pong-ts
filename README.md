@@ -1,6 +1,6 @@
 # Käyttöliittymät ja pelit
 
-Seminaarityönäni toteutin Pong-pelin TypeScriptiä ja HTML Canvas APIa hyödyntäen. Peli on klassinen arcade-tyylinen pingis peli, jossa ensimmäisenä 10 pistettä saavuttanut pelaaja voittaa. Pelin ensimmäinen versio on julkaistu Linux palvelimet-kurssin aikana vuokraamallani virtuaalipalvelimella ja sitä voi kokeilla [täällä.](http://linuxharjoitus.me)
+Seminaarityönäni toteutin Pong-pelin TypeScriptiä ja HTML Canvas APIa hyödyntäen. Peli on klassinen arcade-tyylinen pingis peli, jossa ensimmäisenä 10 pistettä saavuttanut pelaaja voittaa. Pelin ensimmäinen versio on julkaistu Linux palvelimet-kurssin aikana vuokraamallani virtuaalipalvelimella ja sitä voi kokeilla [täällä.](http://linuxharjoitus.me) Demo video löytyy [täältä.](https://video.haaga-helia.fi/media/t/0_74hi6cea)
 
 ## Johdanto
 
