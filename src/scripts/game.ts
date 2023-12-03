@@ -25,9 +25,9 @@ const winningScore: number = 10;
 const ballSpeed: number = 2;
 const paddleSpeed: number = 2.5;
 
+let isResetting: boolean = false;
 let scores: { p1: number, p2: number } = { p1: 0, p2: 0 };
 let keys: Record<string, boolean> = {};
-let isResetting: boolean = false;
 
 export const userInput = (): void => {
     document.addEventListener('keydown', (e) => {
@@ -43,9 +43,9 @@ const randomDirection = (): number => Math.random() > 0.5 ? 1 : -1;
 
 const pass = (): number => (scores.p1 + scores.p2) % 2 === 0 ? -1 : 1
 
-let ball: Ball = { x: 400, y: 300, radius: 4, dx: pass(), dy: randomDirection() };
-
 const gameOver = (): boolean => scores.p1 >= winningScore || scores.p2 >= winningScore;
+
+let ball: Ball = { x: 400, y: 300, radius: 4, dx: pass(), dy: randomDirection() };
 
 
 const updateGame = (): void => {
